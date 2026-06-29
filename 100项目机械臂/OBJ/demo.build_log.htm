@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a 8613111287629, a, LIC=76F5U-S478Y-FW62N-YISFI-DNA06-ABAQ9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\粤嵌STM32\课堂笔记(新STM32代码)\100项目机械臂\USER\FreeRTOS.uvprojx
+Project File Date:  06/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'FreeRTOS'
+compiling main.c...
+main.c(109): warning:  #223-D: function "syn6288_init" declared implicitly
+  	syn6288_init();
+main.c(132): warning:  #223-D: function "OLED_DrawBMP" declared implicitly
+          OLED_DrawBMP(0,0,32,4, g_image_dot_tbl[i].address);
+main.c(135): warning:  #223-D: function "oled_fill" declared implicitly
+          oled_fill(x,7,1,0xFF);
+main.c(240): warning:  #186-D: pointless comparison of unsigned integer with zero
+                          if(g_servo1_angle < 0) g_servo1_angle = 0;
+main.c(258): warning:  #186-D: pointless comparison of unsigned integer with zero
+                          if(g_servo2_angle < 0) g_servo2_angle = 0;
+main.c(334): warning:  #223-D: function "syn6288_speak_gbk" declared implicitly
+  					syn6288_speak_gbk("来给生活比个耶");
+main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=21280 RO-data=8472 RW-data=852 ZI-data=67636  
+FromELF: creating hex file...
+"..\OBJ\demo.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil.STM32F4xx_DFP.1.0.8
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_FreeRTOS
+  E:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
